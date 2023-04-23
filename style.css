@@ -51,13 +51,16 @@ body {
 }
 
 ul {
+   width: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
     font-size: 20px;
     height: 40px;
     line-height: 200%;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
    
 
@@ -72,8 +75,7 @@ ul a {
 
 ul > li {
    
-    float: left;
-    text-align: center;
+    
     width: 150px;
     height: 40px;  
 
